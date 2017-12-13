@@ -9,12 +9,12 @@ is to request the GPU quota on GCP.
 
 ## Create VM instance:
 choose CPU,Ram and GPU, please note region should be sync with your quora request before.
-<img src="cpu_ram_gpu.png" width="600"/>
-config the boot disk size.
+<img src="cpu_ram_gpu.png" width="600"/>  
+Config the boot disk size.
 Please note the default 10G is not enough for GPU driver.
-<img src="boot_disk.png" width="600"/>
+<img src="boot_disk.png" width="600"/>  
 Remove the option on Deletion rule, in case to re-create a VM.
-<img src="os_deletion.png" width="600"/>
+<img src="os_deletion.png" width="600"/>  
 ## Install GPU driver on VM:
 Note that tensorflow 1.4 support Cuda 8 version.
 ```shell
@@ -33,7 +33,7 @@ to download cuDNN file,
 need to register on Nividia site.
 ,tensorflow 1.4 is now only support
 cuDNN V6.
-<img src="cudnn.png" width="600"/>  
+<img src="cudnn.png" width="600"/>   
 Once the file is downloaded, 
 transfer the file to VM by google cloud command:
 ```shell
