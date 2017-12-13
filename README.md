@@ -13,7 +13,7 @@ choose CPU,Ram and GPU, please note region should be sync with your quora reques
 Config the boot disk size.
 Please note the default 10G is not enough for GPU driver.
 <img src="boot_disk.png" width="400"/>  
-Remove the option on Deletion rule, in case to re-create a VM.
+Remove the option on Deletion rule, in case to re-create a VM.  
 <img src="os_deletion.png" width="400"/>  
 ## Install GPU driver on VM:
 Note that tensorflow 1.4 support Cuda 8 version.
